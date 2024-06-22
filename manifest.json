@@ -1,0 +1,19 @@
+{
+  "name": "Rephonic Automation Tool",
+  "description": "Built automation system easily in Rephonic website.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "clip.png",
+    "48": "clip.png",
+    "128": "clip.png"
+  }
+}
