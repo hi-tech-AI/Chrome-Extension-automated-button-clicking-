@@ -15,6 +15,7 @@
             margin-top: 10px;
         }
         button {
+            width: 150px;
             padding: 10px;
             border: none;
             background-color: #007BFF; /* Nice blue color */
@@ -23,6 +24,7 @@
             cursor: pointer;
             transition: background-color 0.3s ease;
             font-family: Poppins, sans-serif;
+            font-size: 20px;
             border-radius: 10px;
             margin-right: 10px;
         }
@@ -50,16 +52,21 @@
             color: #007BFF;
             text-decoration: none;
         }
+        #actionButton {
+            padding: 5px 5vw;
+            display: flex;
+            justify-content: space-around;
+        }
     </style>
 </head>
 <body>
     <h1>📋 Rephonic Automation Tool</h1>
-    <h4><a href="https://github.com/hi-tech-AI/simple-scraping-extension" target="_blank">By Miguel </a> <a href="https://www.buymeacoffee.com/HITECHAI">☕ Buy Me A Coffee :)</a></h4>
+    <h4><a href="https://github.com/hi-tech-AI/Automation-Chrome-Extension.git" target="_blank">🥇 Created By Miguel 🥇</a></h4>
     <div id="status"></div>
     <div id="total"></div>
-    <!-- <label for="timeBetweenPages">Time Between Pages (in seconds):</label> -->
-    <!-- <input type="number" id="timeBetweenPages" name="timeBetweenPages" min="1" max="10" value="5"> -->
-    <button id="actionStartButton">Start Automation</button>
-    <script src="popup.js"></script>
+    <div id="actionButton">
+        <button id="actionStartButton">Start</button>
+    </div>
+    <script src="add.js"></script>
 </body>
 </html>
