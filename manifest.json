@@ -13,8 +13,8 @@
     "default_popup": "popup.html"
   },
   "icons": {
-    "16": "clip.png",
-    "48": "clip.png",
-    "128": "clip.png"
+    "16": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
   }
 }
